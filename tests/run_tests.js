@@ -4,6 +4,7 @@ import { runStorageTests } from './test_storage.js';
 import { runAnalyticsTests } from './test_analytics.js';
 import { runTransactionsTests } from './test_transactions.js';
 import { runBudgetsTests } from './test_budgets.js';
+import { runFinancialMathTests } from './test_financial_math.js';
 
 // Setup in-memory LocalStorage mock for Node.js test environment
 class LocalStorageMock {
@@ -63,6 +64,9 @@ async function executeTestSuite() {
 
   console.log('\n🎯 5. Budget Planner & Limits Tests...');
   runBudgetsTests(assert);
+
+  console.log('\n🧮 6. Quantitative Financial Mathematics Tests...');
+  runFinancialMathTests(assert);
 
   console.log('\n======================================================');
   console.log(` SUMMARY: ${passed} PASSED, ${failed} FAILED`);

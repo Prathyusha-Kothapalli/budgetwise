@@ -12,6 +12,10 @@ import { renderSavingsView } from './views/savingsView.js';
 import { renderRecurringView } from './views/recurringView.js';
 import { renderReportsView } from './views/reportsView.js';
 import { renderSettingsView } from './views/settingsView.js';
+import { renderTaxCalculatorView } from './views/taxCalculatorView.js';
+import { renderInvestmentView } from './views/investmentView.js';
+import { renderDebtView } from './views/debtView.js';
+import { renderAuditLogView } from './views/auditLogView.js';
 
 class App {
   constructor() {
@@ -26,7 +30,8 @@ class App {
 
     // Initial Hash check
     const initialHash = window.location.hash.replace('#', '');
-    if (initialHash && ['dashboard', 'transactions', 'budgets', 'goals', 'recurring', 'reports', 'settings'].includes(initialHash)) {
+    const validViews = ['dashboard', 'transactions', 'budgets', 'goals', 'recurring', 'tax', 'investment', 'debt', 'reports', 'audit', 'settings'];
+    if (initialHash && validViews.includes(initialHash)) {
       State.set('currentView', initialHash);
     }
 
@@ -36,7 +41,7 @@ class App {
     // Listen to browser hash changes
     window.addEventListener('hashchange', () => {
       const hash = window.location.hash.replace('#', '');
-      if (hash && ['dashboard', 'transactions', 'budgets', 'goals', 'recurring', 'reports', 'settings'].includes(hash)) {
+      if (hash && validViews.includes(hash)) {
         State.set('currentView', hash);
       }
     });
@@ -82,8 +87,20 @@ class App {
       case 'recurring':
         renderRecurringView(viewMount);
         break;
+      case 'tax':
+        renderTaxCalculatorView(viewMount);
+        break;
+      case 'investment':
+        renderInvestmentView(viewMount);
+        break;
+      case 'debt':
+        renderDebtView(viewMount);
+        break;
       case 'reports':
         renderReportsView(viewMount);
+        break;
+      case 'audit':
+        renderAuditLogView(viewMount);
         break;
       case 'settings':
         renderSettingsView(viewMount);
