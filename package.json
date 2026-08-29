@@ -19,7 +19,7 @@
     "dashboard"
   ],
   "author": "BudgetWise Engineering",
-  "license": "MIT",
+  "license": "Proprietary",
   "devDependencies": {
     "serve": "^14.2.4"
   }
