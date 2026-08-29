@@ -1,0 +1,57 @@
+/* BudgetWise Responsive Layout & Mobile Breakpoints */
+
+@media (max-width: 1024px) {
+  #main-content {
+    margin-left: 0 !important;
+  }
+
+  .app-sidebar {
+    transform: translateX(-100%);
+  }
+
+  .app-sidebar.mobile-open {
+    transform: translateX(0);
+  }
+
+  .col-span-8, .col-span-6, .col-span-4, .col-span-3 {
+    grid-column: span 12;
+  }
+
+  .dashboard-grid {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .view-container {
+    padding: 1rem;
+  }
+
+  .app-header {
+    padding: 0 1rem;
+  }
+
+  .header-title {
+    font-size: 1.1rem;
+  }
+
+  .kpi-card {
+    padding: 1rem;
+  }
+
+  .kpi-value {
+    font-size: 1.5rem;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .notification-drawer {
+    width: 100vw;
+  }
+
+  .auth-card {
+    padding: 1.5rem;
+  }
+}

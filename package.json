@@ -1,0 +1,26 @@
+{
+  "name": "budgetwise",
+  "version": "1.0.0",
+  "description": "Production-quality Personal Finance & Budget Management SaaS application",
+  "main": "js/app.js",
+  "scripts": {
+    "start": "npx serve -l 3000 .",
+    "test": "node tests/run_tests.js",
+    "test:python": "python3 -m unittest python_utils/test_python_utils.py || python -m unittest python_utils/test_python_utils.py",
+    "validate": "python3 python_utils/validate_data.py --sample || python python_utils/validate_data.py --sample",
+    "analytics": "python3 python_utils/generate_analytics.py --sample || python python_utils/generate_analytics.py --sample"
+  },
+  "keywords": [
+    "personal-finance",
+    "budget",
+    "saas",
+    "analytics",
+    "localstorage",
+    "dashboard"
+  ],
+  "author": "BudgetWise Engineering",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
