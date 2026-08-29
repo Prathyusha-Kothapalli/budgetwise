@@ -1,0 +1,50 @@
+/* BudgetWise UI Widget Component Module #5 */
+import { State } from '../state.js';
+import { formatCurrency } from '../utils.js';
+
+export function renderUIWidgetComponent5(container, props = {}) {
+  if (!container) return;
+  const currency = props.currency || State.get('currency') || 'USD';
+  const title = props.title || 'Financial Widget #5';
+
+  container.innerHTML = `
+    <div class="glass-panel ui-widget-5" style="padding:1.5rem; margin-bottom:1rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+        <h3 style="font-size:1.1rem; font-weight:700;">${title}</h3>
+        <span class="badge badge-info">Module 5</span>
+      </div>
+      <div class="dashboard-grid">
+        <div class="kpi-card col-span-4">
+          <div class="kpi-title">Metric 5.1</div>
+          <div class="kpi-value font-mono">${formatCurrency(575, currency)}</div>
+          <div class="kpi-footer">Active Tracker #1</div>
+        </div>
+        <div class="kpi-card col-span-4">
+          <div class="kpi-title">Metric 5.2</div>
+          <div class="kpi-value font-mono">${formatCurrency(1025, currency)}</div>
+          <div class="kpi-footer">Active Tracker #2</div>
+        </div>
+        <div class="kpi-card col-span-4">
+          <div class="kpi-title">Metric 5.3</div>
+          <div class="kpi-value font-mono">${formatCurrency(1475, currency)}</div>
+          <div class="kpi-footer">Active Tracker #3</div>
+        </div>
+        <div class="kpi-card col-span-4">
+          <div class="kpi-title">Metric 5.4</div>
+          <div class="kpi-value font-mono">${formatCurrency(1925, currency)}</div>
+          <div class="kpi-footer">Active Tracker #4</div>
+        </div>
+        <div class="kpi-card col-span-4">
+          <div class="kpi-title">Metric 5.5</div>
+          <div class="kpi-value font-mono">${formatCurrency(2375, currency)}</div>
+          <div class="kpi-footer">Active Tracker #5</div>
+        </div>
+        <div class="kpi-card col-span-4">
+          <div class="kpi-title">Metric 5.6</div>
+          <div class="kpi-value font-mono">${formatCurrency(2825, currency)}</div>
+          <div class="kpi-footer">Active Tracker #6</div>
+        </div>
+      </div>
+    </div>
+  `;
+}

@@ -1,0 +1,614 @@
+/* BudgetWise CSS Module #8 Component Styles */
+
+.bw-module-8-component-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-1:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-2:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-3 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-3:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-4 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-4:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-5 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-5:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-6 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-6:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-7 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-7:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-8 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-8:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-9 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-9:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-10 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-10:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-11 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-11:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-12 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-12:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-13 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-13:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-14 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-14:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-15 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-15:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-16 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-16:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-17 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-17:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-18 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-18:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-19 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-19:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-20 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-20:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-21 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-21:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-22 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-22:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-23 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-23:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-24 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-24:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-25 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-25:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-26 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-26:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-27 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-27:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-28 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-28:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-29 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-29:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-30 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-30:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-31 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-31:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-32 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-32:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-33 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-33:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
+.bw-module-8-component-34 {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.bw-module-8-component-34:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand-primary);
+}
+
